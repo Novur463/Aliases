@@ -1,0 +1,12 @@
+noPermission: '&4&lERROR &cYou do not have permission to perform this command!'
+noAliasesRegistered: '&4&lERROR &cThere are no registered aliases to list!'
+incorrectFormat: '&4&lERROR &cIncorrect format! /aliases help'
+configReloaded: '&8>>  &aAliases config reloaded.'
+listAliasFormat: '&8>>  &3Command: &7%linkedCommand% &3- Alias: &7%alias%'
+
+help:
+  - '&3/aliases help &7- Display this help menu'
+  - '&3/aliases list &7- List registered aliases'
+  - '&3/aliases reload &7- Reload aliases config'
+
+aliases:

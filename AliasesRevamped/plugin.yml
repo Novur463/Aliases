@@ -1,0 +1,21 @@
+name: Aliases
+author: Novur
+version: 1.0-FINAL
+main: com.novur.aliases.Aliases
+
+commands:
+  aliases:
+    description: Base Aliases command
+
+permissions:
+  aliases.*:
+    children:
+      aliases.help: true
+      aliases.reload: true
+      aliases.list: true
+  aliases.help:
+    description: Permission to show Aliases help menu
+  aliases.reload:
+    description: Permission to reload Aliases config
+  aliases.list:
+    description: Permission to list registered command aliases
